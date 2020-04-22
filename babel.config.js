@@ -13,4 +13,6 @@ module.exports={/*exporta configurações de terceiros
   (navegador),com o que ele não entende,'env'=ambiente*/
 '@babel/preset-react'],/*Adiciona funcionalidades do react,que é uma ferramenta
  para fazer sites usada pelo Facebook,netflix e etc*/
+plugins: ['@babel/plugin-transform-runtime'
+]//usado para funcionar async await
 };
